@@ -9,15 +9,26 @@ int main()
 	float B;
 	float X;
 
-	cout << "please enter a value for A: ";
+	cout << "Hello! My name is Josiah and I will help you solve the equation:" << endl;
+	cout << "Ax + B = 0" << endl;
+	cout << "For x" << endl;
+
+	cout << "Please enter a value for A: ";
 	cin >> A;
 
-	cout << "A=" << A << endl;
+	cout << "Please enter a value for B: ";
+	cin >> B;
 
-	B = (A * 4 ) + 1
+	X = (0 - B) / A;
+	
+	
+		cout << "Solving " << A << "x + " << B << "= 0" << "For x . . . " << endl;
 
-	cout << "Text";
+		cout << "The answer is:" << endl << "x = " << X;
+		
+		cout << "Your welcome! Run me again to use new variables!";
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
